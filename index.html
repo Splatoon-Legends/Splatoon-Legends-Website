@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Splatoon Legends</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Splatoon Legends</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#devlogs" class="navbar-link" data-nav-link>Devlogs</a>
+          </li>
+          
+           <li>
+            <a href="#progress" class="navbar-link">Progress</a>
+          </li>
+          
+          <li>
+            <a href="#faq" class="navbar-link" data-nav-link>FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn-primary">Download</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/inkling.png" width="800" height="864" loading="lazy" alt="Inkling's Photo"
+              class="img-cover">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <strong>Painting Game</strong> On Your 3DS!
+            </h2>
+
+            <p class="hero-text">
+              Splatoon Legends, is a fan game of the first Splatoon game from Wii U. We want to make a port of it on 3DS platform, this will support Old 3DS and New 3DS as well.
+            </p>
+
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Read More</a>
+
+              <a href="https://discord.gg/9rKyfWftkT" class="btn">Join us on Discord <i class="ri-discord-fill"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Inkling's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+              <img src="./assets/images/old3ds.png">
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <img src="./assets/images/old2ds.png">
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+               <img src="./assets/images/new3ds.png">
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">On every 3DS Platform</p>
+
+            <h2 class="h2 section-title">Our goal is to make Splatoon playable on 3DS and New 3DS</h2>
+
+            <p class="section-text">
+            The team has 2 majors project : the first one is to Demake Splatoon using Unity, so we will recode anything from start as close as possible to the original game, then make a build for the 3DS platform. The second one, is a real Decompilation of the code of Splatoon, to be more precise, a decompilation of the RPX file to make the game playable on a lot of platforms.
+            </p>
+
+            <p class="section-text">
+              Our work started in february 2023 when Delus1on_L released his first video about porting Splatoon
+              on the 3DS. From there, a lot of peoples joined the project and now we are close to 50 collaborators.
+              You can see the credit that contains the name of everyone who works on the project by clicking the
+              button below.
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">View Credits</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Devlogs
+      -->
+
+      <section class="section portfolio" id="devlogs">
+        <div class="container">
+
+          <p class="section-subtitle">Devlogs</p>
+
+          <h2 class="h2 section-title">The Latest Devlogs</h2>
+
+          <p class="section-text">
+            Every month, we release a new devlog that resume every updates we did on Splatoon Legends.
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Multiplayer, Ink System, Gyroscope And More...</p>
+
+                  <h3 class="h3 card-title">April Devlog</h3>
+
+                  <span class="btn-link">
+                    <span>View This Log</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      
+      <!-- 
+        - #PROGRESS
+      -->
+
+      <section class="section skills" id="progress">
+        <div class="container">
+
+          <p class="section-subtitle">Progress</p>
+
+          <h2 class="h2 section-title">Here you can see the current state of the game</h2>
+
+          <p class="section-text">
+            Those percentage has been calculated using a todolist with some goals.<br>*This section only concern the demake project.
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 30%">
+                <h3 class=" skills-title">Multiplayer*</h3>
+
+                <data class="skills-data" value="10"> 10%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 10%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 40%">
+                <h3 class="skills-title">Player Controls</h3>
+
+                <data class="skills-data" value="40">40%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 40%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 45%">
+                <h3 class="skills-title">Maps/Level Demake</h3>
+
+                <data class="skills-data" value="1">1%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 1%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 30%">
+                <h3 class="skills-title">Ink System</h3>
+
+                <data class="skills-data" value="10">10%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 10%"></div>
+              </div>
+            </li>
+            
+        <h4>*Only local multiplayer right now</h4>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section blog" id="faq">
+        <div class="container">
+
+          <p class="section-subtitle">Any Question?</p>
+
+          <h2 class="h2 section-title">F.A.Q</h2>
+
+          <p class="section-text">
+            You can have a answer to all frequently asked questions on a dedicated page that you can access by clicking <a href="" style="color: lightblue">here</a>
+          </p>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2023 <a href="#" class="copyright-link">Spoon Research Lab</a>. Splatoon rights are owned by Nintendo
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="https://discord.gg/9rKyfWftkT" class="footer-link" style="font-size: 30px"><i class="ri-discord-line"></i></a>
+        </li>
+
+        <li>
+            <a href="https://www.tiktok.com/@splat.legends" class="footer-link" style="font-size: 30px"><i class="ri-tiktok-line"></i></a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
